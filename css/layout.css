@@ -1,0 +1,75 @@
+.layout-cabecalho {
+    height: 50px;
+    line-height: 20px;
+    border-bottom: 1px solid #58d2ff;
+    
+    background-color: #fff;
+}
+
+.layout-cabecalho--home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    z-index: 9999;
+}
+
+.layout-planos {
+    padding: 80px 0;
+
+    background-color:#1B6DC1;
+}
+
+.layout-chamada {
+    padding: 80px 0;
+    margin-top: 0px;
+
+    background-color:#00A4F0;
+}
+
+.layout-depoimento {
+    padding: 80px 0;
+    background-color:#00A4F0;
+}
+
+.layout-rodape {
+    position: relative;
+
+    padding: 10px 0;
+
+    background-color: #fff;
+
+    color: #00A4F0;
+
+    text-align: center;
+
+}
+
+@media(max-width: 992px) {
+    .layout-planos .row > div:not(.ultima-coluna) {
+        margin-bottom: 40px;
+    }
+}
+
+.layout-assinatura {
+    padding: 40px 0;
+}
+
+.layout-mural {
+    margin: 0;
+}
+
+.layout-mural-efeito {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contatos {
+    margin: 10px;
+    color: #1B6DC1;
+}

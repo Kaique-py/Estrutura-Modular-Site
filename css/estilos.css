@@ -1,0 +1,31 @@
+/*Uma ideia interessante para definir o tamanho padrão de fontes é assim:*/
+/*
+html {
+    font-size: 62.5%; Tamanho 10, dividido por 16px que é o padrão dos navegadores, vezes 100 (porcentagem).
+
+}
+
+Dessa forma, eu continuo permitindo que o usuário altere o tamanho da sua visualização, porque não defini um valor
+específico, em pixels, para as fontes, mas mesmo assim, consigo continuar calculando tudo como se estivesse usando pixels,
+o que facilita minha imaginação dos tamanhos que quero usar.
+
+Depois de fazer isso, na definição dos tamanhos de fontes, por exemplo se eu quiser uma fonte tamanho 30px, basta eu definir ela
+como 300% (só multiplicar o valor desejado em pixels por 10). 
+
+Tem que se atentar que o font-size é em relação ao elemento PAI, ao qual o item que quero definir o tamanho está subordinado.
+Tem que atentar também que se esse PAI estiver subordinado a outro e este outro também tiver diferente, vai mudar também, efeito cascata.
+*/
+
+
+/*
+
+Como eu retirei as informações desse arquivo para os arquivos CSS referentes a cada bloco de coisas, esse arquivo ficou vazio,
+mas vou mantê-lo aqui, pela explicação do tamanho de fonte e para lembrar que existe a necessidade de estilização do projeto.
+
+
+
+*/
+
+
+
+

@@ -1,0 +1,22 @@
+/*Uma boa prática é separar as propriedades, de acordo com o que representam. Posicionamento, Display e Box Model, Cores,
+Texto e Outras propriedades que forem adicionadas (hover, etc.). Fazer isso em todos os arquivos de CSS.*/
+
+html {
+    font-size: 62.5%; /*Essa porcentagem é para utilizar 10px como base, mas mesmo assim, permitindo que o usuário ajuste suas configurações de exibição.*/
+}
+
+body {
+    /* Posicionamento */
+
+    /* Display e Box Model */
+    margin: 0;
+
+    /* Cores */
+
+    /* Texto */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+
+    /* Outros */
+}
+

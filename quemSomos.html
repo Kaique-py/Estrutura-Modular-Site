@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem Somos</title>
+
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css"> <!--Usando o grid do bootstrap pra facilitar o ajuste dos itens usando o sistema de colunas-->
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> Se usar o Grid do bootstrap não precisa do normalize-->
+    
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/componentes.css">
+    <!--Uma folha de estilização para a base de tudo, para os layouts e uma para os componentes especificamente-->
+    <!--Estou usando a metodologia BEM (Block, Element, Modifier) pra facilitar o entendimento, visualização e posterior manutenção da parte de estilização-->
+</head>
+
+<body>
+      
+    <header class="layout-cabecalho layout-cabecalho--home">
+        <div class="container">
+
+            <nav class="navegacao">
+                <a href="home.html"><img class="navegacao__imagem" src="./imagens/MinhaLogo.png" width="170.33" height="41.33" alt="Faculdade-Federal"></a>
+
+                <div class="navegacao__menu">
+                    <button class="botao-chaveador js-botao-chaveador"></button>
+                    
+                    <ul class="menu js-menu">
+                        <li class="menu__item">
+                            <a href="produtos.html">Nossos Cursos</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="contato.html">Contatos</a>
+                        </li>
+                        <li class="menu__item menu__item--botao">
+                            <a href="#" class="botao botao--login">Já sou Aluno</a>
+                        </li>
+                    </ul>
+                
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <section class="layout-chamada">
+        <div class="container">
+            
+            <div class="chamada">
+                <h1 class="chamada__titulo">Uma Faculdade <strong>diferenciada</strong></h1>
+                <p class="chamada_subtitulo">Nossa Missão é Promover a educação de qualidade nas diferentes áreas do conhecimento, formando profissionais cidadãos que contribuam para o desenvolvimento de uma sociedade justa e solidária.</p>
+                <p class="chamada_subtitulo">A <bold>Visão de Futuro</bold> da Faculdade Federal é:</p>
+                    <ul>
+                        <li>Ser reconhecida internacionalmente pela qualidade de ensino à distância (Ead);</li>
+                        <li>Promover a qualidade e inovação do processo de ensino-aprendizagem; e</li>
+                        <li>Construir uma comunidade de networking entre colaboradores e estudantes.</li>
+                    </ul>
+
+                <p class="chamada_subtitulo"><bold>Nossos Valores</bold> são:</p>
+                    <ul>
+                        <li>Respeito à diversidade;</li>
+                        <li>Busca constante pela eficiência e eficácia;</li>
+                        <li>Espírito de Corpo; e</li>
+                        <li>Culto à Verdade e à Lealdade;</li>
+                    </ul>
+                <div class="chamada__acao">
+                    <a href="produtos.html" class="botao  botao--principal">Conheça nossos Cursos</a>
+                    <!--Link para rolagem da página até uma seção específica, dentro da mesma página. Nesse caso, direcionando para Planos.-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+    <div class="layout-mural">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mural-simples">
+                    <img src="./imagens/Palmas.jpg" alt="Equipe Palmas">
+                    <div class="descricao">
+                        <h3>Equipe Palmas</h3>
+                        <p>Vem fazer parte desse grupo de <strong>sucesso</strong>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mural-simples">
+                    <img src="./imagens/Santarem.jpg" alt="Equipe Santarém">
+                    <div class="descricao">
+                        <h3>Equipe Santarém</h3>
+                        <p>Vem fazer parte desse grupo de <strong>sucesso</strong>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mural-simples">
+                    <img src="./imagens/Caico.jpg" alt="Equipe Caicó">
+                    <div class="descricao">
+                        <h3>Equipe Caicó</h3>
+                        <p>Vem fazer parte desse grupo de <strong>sucesso</strong>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <footer class="layout-rodape">
+        <div class="container">
+            <p>&copy; Faculdade Federal 2024. Todos os direitos reservados.</p> <!--Ver sobre HTML Entities, para saber mais símbolos-->
+        </div>
+    </footer>
+
+    <script src="./javascripts/app.js"></script>
+</body>
+
+</html>
